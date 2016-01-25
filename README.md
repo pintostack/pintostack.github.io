@@ -1,3 +1,7 @@
+PintoStack Website
+===============
+Built using https://github.com/t413/SinglePaged — thank you!
 
-This is a compressed-commit version of
-[github.com/t413/SinglePaged](https://github.com/t413/SinglePaged)
+Typos? Errors?
+============
+Don't hesitate to edit and submit a pull request, or file an issue. 

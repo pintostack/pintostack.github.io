@@ -15,13 +15,13 @@ highlighter: pygments
 
 
 ### content configuration ###
-title:       "SinglePaged - Title: Edit me in _config.yml!"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
-source_link: "https://github.com/t413/SinglePaged"
-favicon:     #put a path like: "img/favicon.ico"
-touch_icon:  #put a path like: "img/apple-touch-icon.png"
-google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+title:       "PintoStack — your cloud stack of choice"
+keywords:    "PintoStack, DataArt, Big Data, Mesos, Docker, microservice, consul, service discovery, etcd, spark, hdfs, devops, open source"
+description: "Build your cluster in AWS, DigitalOcean, Azure or desktop straight from GitHub"
+source_link: "https://github.com/pintostack/core"
+# favicon:     "img/favicon.ico"
+# touch_icon:  "img/apple-touch-icon.png"
+google_analytics_key: UA-69477248-1 
 
 
 ### template colors, used site-wide via css ###
@@ -33,4 +33,7 @@ colors:
   purple:    '#c869bf'
   orange:    '#fab125'
   turquoise: '#0fbfcf'
-  
+
+kramdown:
+  auto_ids:  false
+
