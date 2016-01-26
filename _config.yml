@@ -15,7 +15,7 @@ highlighter: pygments
 
 
 ### content configuration ###
-title:       "PintoStack — your cloud stack of choice"
+title:       "PintoStack â€” your cloud stack of choice"
 keywords:    "PintoStack, DataArt, Big Data, Mesos, Docker, microservice, consul, service discovery, etcd, spark, hdfs, devops, open source"
 description: "Build your cluster in AWS, DigitalOcean, Azure or desktop straight from GitHub"
 source_link: "https://github.com/pintostack/core"
@@ -36,4 +36,3 @@ colors:
 
 kramdown:
   auto_ids:  false
-
