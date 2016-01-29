@@ -17,6 +17,21 @@ $.extend($.easing,
     var navItems;
     var navs = {}, sections = {};
 
+    $.fn.subscribe = function(){
+      var email = this.val();
+      var field = this;
+      if (!email) return;
+
+      $.post( "http://devicehive.com/subscribe/"+email+"?list=5e39f44ea2", function(data) {
+          alert( "Thank you!");
+          field.val("");
+        })
+          .fail(function() {
+            alert( "Something went wrong. Please contact info@pintostack.com");
+          });
+    }
+
+
     $.fn.navScroller = function(options) {
         settings = $.extend({
             scrollToOffset: 170,
@@ -70,6 +85,8 @@ $.extend($.easing,
 })( jQuery );
 
 
+
+
 $(document).ready(function (){
 
     $('nav li a').navScroller();
@@ -92,4 +109,3 @@ $(document).ready(function (){
 	});
 
 });
-
