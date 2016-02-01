@@ -22,3 +22,4 @@ export AWS_KEY=your-aws-key
 ./marathon-push.sh marathon/hdfs-dn.json
 ./marathon-push.sh marathon/zeppelin.json
 {% endhighlight %}
+
