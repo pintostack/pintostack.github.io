@@ -267,14 +267,14 @@
   ================================================== */
 
 
-.highlight {
-    color: #f8f8f2;		    color: #f8f8f2;
-    table-layout: fixed;		    table-layout: fixed;
-    white-space: nowrap;		    white-space: nowrap;
-    width:90%;		    width:90%;
-  }
+.highlight  {
+  color: #f8f8f2;
+  table-layout: fixed;
+  white-space: nowrap;
+  width:90%;
+}
 
-.highlight pre, .highlight code { display:block; margin:0; padding:0; background: none; overflow:auto; word-wrap: normal; }
+.highlight  pre, .highlight  code { display:block; margin:0; padding:0; background: none; overflow:visible; word-wrap: normal; }
 
 .highlight, .linenodiv {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIHWPQ1dU1BgABzQC7XXMTYQAAAABJRU5ErkJggg==);
@@ -284,9 +284,9 @@
 }
 .gutter, .lineno { color: #ccc; }
 
-td.gl  { width: 40px; }
+td.gl { width: 40px; }
 
-.gutter  {
+.gutter {
   border-right: none;
   padding: 10px;
   text-align: right;
